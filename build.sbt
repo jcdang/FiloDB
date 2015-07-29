@@ -32,7 +32,8 @@ lazy val extraRepos = Seq(
   "Typesafe repository releases" at "http://repo.typesafe.com/typesafe/releases/",
   "twitter-repo" at "http://maven.twttr.com",
   "Websudos releases" at "https://dl.bintray.com/websudos/oss-releases/",
-  "Velvia Bintray" at "https://dl.bintray.com/velvia/maven"
+  "Velvia Bintray" at "https://dl.bintray.com/velvia/maven",
+  "Pellucid Bintray" at "http://dl.bintray.com/pellucid/maven" 
 )
 
 val excludeShapeless = ExclusionRule(organization = "com.chuusai")
